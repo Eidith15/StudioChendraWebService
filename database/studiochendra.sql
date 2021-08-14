@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 14, 2021 at 06:58 PM
+-- Generation Time: Aug 14, 2021 at 07:14 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -146,8 +146,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id_user`, `nama_user`, `email_user`, `no_handphone_user`, `username_user`, `password_user`, `access_code`) VALUES
-(30, 'Admin Studio Chendra', 'adminsc@gmail.com', '08123456789', 'adminsc', 'adminsc', 1),
-(31, 'User Studio Chendra', 'usersc@gmail.com', '08123456789', 'usersc', 'usersc', 2);
+(33, 'User Studio Chendra', 'usersc@gmail.com', '08123456789', 'usersc', '338993e6922849a848c740261768eed325d9efc7e30f03603abcfb479f26e938e5fddf42915c2c6c2fa758073afbd3dbb9436c4adabd70441930d7de92b76f66', 2),
+(34, 'Admin Studio Chendra', 'adminsc@gmail.com', '08123456789', 'adminsc', 'ead9b2fd8ef6dc04e6ebd79f54b2186e89698120048ce4cfc3a5573df47f06b2ab291fdf220e37d6f95bfbf0d745680dadae8e170531ab28183243b2faa52d2d', 1);
 
 -- --------------------------------------------------------
 
@@ -256,7 +256,7 @@ ALTER TABLE `registrasi_order`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `workshop`
